@@ -1,0 +1,15 @@
+06.10.2016	Lopez, Anthony	1	Senior software developer specialized in backend systems
+07.09.2021	Hill, Jessica	2	Project manager for cloud migration initiative
+17.06.2016	Lopez, Robert	3	Data analyst focused on financial report generation
+27.07.2009	Davis, Charles	4	Network administrator with 15+ years of enterprise experience
+28.02.2005	Thompson, Richard	5	UX designer leading customer portal redesign project
+17.09.2000	Davis, Lisa	6	HR specialist managing recruitment and onboarding processes
+19.06.2013	Nguyen, Anthony	7	DevOps engineer optimizing CI/CD pipelines
+04.01.2006	Robinson, Sandra	8	Marketing coordinator for product launch campaigns
+20.02.2013	Williams, Michelle	9	Financial advisor specializing in retirement planning
+09.01.2017	Hill, Sandra	10	Legal counsel handling contract review and compliance
+28.06.2000	Jackson, Amanda	11	Content writer creating technical documentation and guides
+22.08.2008	Williams, Kevin	12	Sales manager overseeing regional client relationships
+27.06.2003	Hall, Amanda	13	Graphic designer developing brand identity materials
+23.09.2021	Baker, Michael	14	IT support lead managing helpdesk operations
+04.06.2014	Mitchell, Stephanie	15	Research scientist working on renewable energy projects
