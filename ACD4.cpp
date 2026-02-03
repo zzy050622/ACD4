@@ -21,7 +21,6 @@ struct Record {
     int originalLine;     // 原始行号（从1开始）| Original line number (starts from 1)
 };
 
-// ---------------------- 拉宾-卡普算法（多模板哈希匹配）----------------------
 // 拉宾-卡普算法：多模板匹配，返回文本中匹配的模板数量是否达标
 // Rabin-Karp Algorithm: Multi-pattern matching, returns if matched patterns meet target
 int rabinKarpSearch(const string& text, const vector<string>& patterns, bool isCountOccurrences, int targetCount) {
@@ -99,7 +98,7 @@ int rabinKarpSearch(const string& text, const vector<string>& patterns, bool isC
     }
 }
 
-// ---------------------- 博伊尔-穆尔算法（单模板高效匹配）----------------------
+// 博伊尔-穆尔算法（单模板高效匹配）
 // 预处理坏字符表 | Preprocess bad character table
 void preprocessBadChar(const string& pattern, vector<int>& badChar) {
     int pLen = pattern.size();
@@ -178,7 +177,7 @@ int boyerMooreSearch(const string& text, const string& pattern, int targetCount)
     return occurrenceCount >= targetCount ? 1 : 0;
 }
 
-// ---------------------- 辅助函数：读取输入文件 ----------------------
+// 辅助函数：读取输入文件 
 // 读取4字段制表符分隔文件 | Read 4-field tab-separated file
 bool readInputFile(const string& filename, int n, vector<Record>& data) {
     ifstream file(filename);
@@ -235,7 +234,7 @@ bool readInputFile(const string& filename, int n, vector<Record>& data) {
     return true;
 }
 
-// ---------------------- 辅助函数：写入输出文件 ----------------------
+// 写入输出文件
 // 写入匹配结果（表格格式）+ 耗时 | Write matched results (table) + elapsed time
 void writeOutputFile(const string& filename, const vector<Record>& matchedRecords, double elapsedTime) {
     ofstream file(filename);
@@ -256,9 +255,9 @@ void writeOutputFile(const string& filename, const vector<Record>& matchedRecord
     cout << "Results saved to " << filename << endl;
 }
 
-// ---------------------- 主函数（流程调度+用户交互）----------------------
+
 int main() {
-    // 1. 控制台输入参数 | Console input parameters
+    // 1. 控制台输入参数
     string inputFilename = "input.txt";  // 输入文件（需与代码同目录）| Input file (same directory as code)
     int n;                               // 处理行数（10≤n≤1000000）| Lines to process (10≤n≤1000000)
     int searchField;                     // 搜索字段（1=姓名，2=描述）| Search field (1=Name, 2=Description)
